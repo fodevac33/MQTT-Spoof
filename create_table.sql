@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS sensor_data (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    value REAL NOT NULL,
+    timestamp TEXT NOT NULL
+);
